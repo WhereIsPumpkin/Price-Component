@@ -373,9 +373,7 @@ input[type="range"]::-webkit-slider-runnable-track {
         display: none;
     }
 
-    #rangesize{
-        display: none;
-    }
+    
 
     .desktop-wrapper{
         width: 446px;
@@ -422,5 +420,8 @@ input[type="range"]::-webkit-slider-runnable-track {
 
     .slider{
         margin-bottom: 56px;
+    }
+    #rangesize{
+        top: 84px;
     }
 }
