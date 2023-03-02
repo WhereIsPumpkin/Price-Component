@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pricing Component</title>
+  </head>
+  <body>
+
+    <header>
+      <svg xmlns="http://www.w3.org/2000/svg" width="146" height="145">
+        <g fill="none" fill-rule="evenodd" stroke="#CFD8EF">
+          <circle cx="63" cy="82" r="62.5" />
+          <circle cx="105" cy="41" r="40.5" />
+        </g>
+      </svg>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+
+    <div class="box">
+
+      <div class="container">
+
+        <div class="box-header">
+          <div class="desktop-wrapper">
+            <p id="pageviews">100K PAGEVIEWS</p>
+            <div class="card-price" id="desktop">
+              <span id="price">$16.00</span>
+              <span id="card-duration">/month</span>
+            </div>
+          </div>
+          <input type="range" class="slider" id="range"  min="1" max="5" value="3"/>
+          <div id="rangesize"></div>
+          <div class="card-price" id="mobile">
+            <span id="price">$16.00</span>
+            <span id="card-duration">/month</span>
+          </div>
+          <card class="card-content">
+            <p class="card-billing" id="mont">Monthly Billing</p>
+            <input type="checkbox" class="sc-gJwTLC ikxBAC" id="toggle-discount" />
+            <p class="card-billing" id="year">Yearly Billing</p>
+            <p class="sale">-25%<span>discount</span></p>
+          </card>
+        </div>
+
+        <div class="box-footer">
+
+          <ul class="card-list">
+            <li class="card-item">
+              <img src="./images/icon-check.svg" />
+              "Unlimited websites"
+            </li>
+            <li class="card-item">
+              <img src="./images/icon-check.svg" />
+              "100% data ownership"
+            </li>
+            <li class="card-item" id="lastcard">
+              <img src="./images/icon-check.svg" />
+              "Email Reports"
+            </li>
+          </ul>
+
+          <button class="trialbutton">Start my trial</button>
+        </div>
+
+      </div>
+
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
